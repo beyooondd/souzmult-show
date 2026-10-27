@@ -1,0 +1,183 @@
+<header>
+ <div class="wrap hd">
+  <a href="#top"><img src="/assets/logo.webp" alt="Сбер 185 · Союзмультфильм 90"></a>
+  <nav id="nav">
+   <a href="#about" class="on">О шоу</a><a href="#heroes">Герои</a><a href="#tickets">Билеты</a><a href="#gift">Подарок</a><a href="#schedule">Расписание</a><a href="#faq">FAQ</a>
+  </nav>
+  <a class="btn" href="#schedule">Купить билет</a>
+  <button class="burger" aria-label="Меню" onclick="var n=document.getElementById('nav');n.classList.toggle('open');document.body.classList.toggle('menu',n.classList.contains('open'))"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<section class="h1s" id="top">
+ <div class="cur l"></div><div class="cur r"></div>
+ <div class="hl">
+  <h1>Тайна Вселенной<span>Союз<br>мульт<br>фильм</span></h1>
+  <div class="strip">Большое новогоднее шоу для всей семьи</div>
+  <p class="lead">Впервые любимые герои встречаются<br>на одной сцене — в одном приключении!</p>
+  <div class="hb"><a class="btn" href="#schedule">Купить билет</a><span class="age">0+</span><span class="dur">1 час 20 минут</span></div>
+ </div>
+ <img class="hh" src="/assets/heroes.webp" alt="Герои Союзмультфильма">
+ <div class="plate"><b>Даты:</b><em>25.12<br>– 10.01</em>
+  <svg viewBox="0 0 300 70"><defs><linearGradient id="gd" x1="0" x2="1"><stop offset="0" stop-color="#a87a2a"/><stop offset=".55" stop-color="#e8b840"/><stop offset="1" stop-color="#c8962e"/></linearGradient></defs><path d="M4 52C30 34 52 30 82 42S128 54 160 38 200 20 232 34 262 44 272 10C284 -2 296 30 292 66" fill="none" stroke="url(#gd)" stroke-width="9" stroke-linecap="round"/></svg>
+  <svg class="pi" viewBox="0 0 300 34" role="img" aria-label="Дворец Ирины Винер"><text x="0" y="27" textLength="300" lengthAdjust="spacingAndGlyphs" font-family="Oswald,'Arial Narrow',sans-serif" font-weight="600" font-size="32" fill="url(#gd)">ДВОРЕЦ ИРИНЫ ВИНЕР</text></svg></div>
+ <div class="hdrift"></div>
+</section>
+
+<div class="marq"><div id="mq"></div></div>
+
+<section class="s2" id="about">
+ <img class="stg" src="/assets/stage.webp" alt="Сцена шоу">
+ <div class="s2t">
+  <span class="tt">С чего всё начинается</span>
+  <h2>Впервые — все герои<em>в одном приключении</em></h2>
+  <p>Чебурашка и Крокодил Гена, Дядя Фёдор, Кот Матроскин и Почтальон Печкин, Умка, Волк и Заяц, Карлсон, Фрекен Бок и Малыш окажутся в совершенно неожиданных обстоятельствах — и впервые встретятся друг с другом</p>
+ </div>
+ <img class="wrapimg" src="/assets/wrap.webp" alt="Вместе им предстоит разгадать Тайну и спасти Вселенную «Союзмультфильм». Детей ждут юмор, чудеса и приключения, а взрослых — встреча с героями, на которых выросли сами">
+</section>
+
+<section class="scene" id="scene">
+ <div class="wrap sc">
+  <article class="sc-card c1"><div class="pic"><img src="/assets/ballet.webp" alt=""></div><h3>Балет и живая музыка</h3><p>Любимые мелодии, которые узнаёшь с первых нот</p></article>
+  <div class="sc-mid"><h2>Сцена <span class="rb">оживает</span> на глазах</h2><p>Полтора часа музыки, света и движения. Масштабное шоу на стыке большого театра, мюзикла и цирка</p><div class="row"><a class="btn" href="#schedule">Купить билет</a><span class="age">0+</span></div></div>
+  <article class="sc-card c2"><div class="pic"><img src="/assets/decor.webp" alt=""></div><h3>Объёмные декорации и 3D-мэппинг</h3><p>То заснеженный город, то звёздное небо над Вселенной — задник меняется под каждый эпизод</p></article>
+  <article class="sc-card c3"><div class="pic"><img src="/assets/circus.webp" alt=""></div><h3>Воздушная акробатика и цирк</h3><p>Герои взлетают над сценой — номера, от которых замирает зал</p></article>
+  <article class="sc-card c4"><h3>Интерактив</h3><p>Дети становятся частью истории, а не только зрителями. [механику уточнить]</p></article>
+ </div>
+</section>
+
+<section class="chars" id="heroes">
+ <div class="wrap">
+  <span class="tt">Познакомьтесь с героями</span>
+  <div class="hrow">
+   <div><h2>Герои, <span>которых любят</span> несколько поколений</h2><p>На одной сцене — Чебурашка и Гена, Умка, Матроскин, Карлсон, Волк и Заяц, Фрекен Бок и другие. Персонажи, которых вы помните с детства, и те, кого впервые полюбят ваши дети.</p></div>
+   <img class="swipe" src="/assets/swipe.webp" alt="Листайте галерею. Клик по герою открывает его карточку">
+  </div>
+ </div>
+ <div class="sl-wrap">
+  <button class="ar l" aria-label="Назад" onclick="var s=document.getElementById('sl');s.scrollBy({left:-s.clientWidth*.5,behavior:'smooth'})"></button>
+  <div class="slider" id="sl">
+   <div class="ch"><h3>Чебурашка</h3><img src="/assets/cheb.webp" alt=""></div>
+   <div class="ch"><h3>Кот Матроскин</h3><img src="/assets/cat.webp" alt=""></div>
+   <div class="ch"><h3>Карлсон</h3><img src="/assets/karlson.webp" alt=""></div>
+   <div class="ch"><h3>Умка</h3><img src="/assets/umka.webp" alt=""></div>
+   <div class="ch"><h3>Чебурашка</h3><img src="/assets/cheb.webp" alt=""></div>
+   <div class="ch"><h3>Кот Матроскин</h3><img src="/assets/cat.webp" alt=""></div>
+   <div class="ch"><h3>Карлсон</h3><img src="/assets/karlson.webp" alt=""></div>
+   <div class="ch"><h3>Умка</h3><img src="/assets/umka.webp" alt=""></div>
+  </div>
+  <button class="ar r" aria-label="Вперёд" onclick="var s=document.getElementById('sl');s.scrollBy({left:s.clientWidth*.5,behavior:'smooth'})"></button>
+ </div>
+</section>
+
+<section class="toons" id="toons">
+ <div class="tfloor"></div><div class="tgar"></div>
+ <div class="tin">
+  <h2>Мультфильмы <em>не заканчиваются,</em><br>когда выключается экран</h2>
+  <p>Мы выросли на этих мультфильмах — а теперь смотрим их вместе с детьми.<br>Это шоу про время друг для друга, которое так легко отложить на потом</p>
+ </div>
+ <article class="tc kids"><h3>Детям</h3><p>Большое приключение, где любимые герои впервые встречаются в одной истории</p></article>
+ <img class="ttv" src="/assets/tv.webp" alt="">
+ <article class="tc adults"><h3>Взрослым</h3><p>Шанс вернуться в своё детство и прожить его заново — теперь рядом с ребёнком</p></article>
+ <p class="tfin">Один вечер, который станет общим семейным воспоминанием</p>
+</section>
+
+<section class="tickets" id="tickets">
+ <img class="rib" src="/assets/ribbon.webp" alt="">
+ <div class="cone2"></div>
+ <span class="tt tl">Билеты на шоу</span>
+ <h2 class="tkh">Занимайте места</h2>
+ <p class="tks">Выберите дату и время показа — и купите билеты онлайн</p>
+ <img class="chb" src="/assets/cheb-t.webp" alt="">
+ <div class="tkw">
+  <img class="tkc" src="/assets/tk-cream.webp" alt=""><img class="tkrd" src="/assets/tk-red.webp" alt=""><img class="tkgr" src="/assets/tk-green.webp" alt="">
+  <div class="tkl">
+   <h3>Всей семьей <mark>на шоу</mark></h3>
+   <div class="li1"><i>✦</i><div><b>Билеты от 1 500 ₽</b><small>Программа идёт 1 час 20 минут</small></div></div>
+   <div class="li1"><i>✦</i><div><b>Дети до 3 лет — бесплатно,<br>без отдельного места</b><small>При предъявлении оригинала свидетельства о рождении. С одним взрослым — только один ребёнок.</small></div></div>
+   <div class="brow"><a class="btn cr" href="#schedule">Купить билет</a><span class="age">0+</span><span class="chip"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.500A2.500 2.500 0 1112 6.500a2.500 2.500 0 010 5z" fill="#f6eddd"/></svg><span>ул. Лужники,<br>д. 24, стр. 24</span></span></div>
+  </div>
+  <div class="tkr">
+   <h3>Корпоративные<br>и групповые билеты</h3>
+   <p class="rq">Заявки от 10 билетов</p>
+   <ul><li><b>01</b>Свой сеанс для компании</li><li><b>02</b>Подарки для детей сотрудников</li><li><b>03</b>Закрытая бронь мест</li></ul>
+   <a class="btn" href="mailto:stat@souzmult90.ru">Оставить заявку</a>
+  </div>
+  <div class="perf"></div>
+ </div>
+ <img class="hare2" src="/assets/hare-t.webp" alt="">
+</section>
+
+<div class="gs">
+ <i class="gt"></i><i class="b1"></i><i class="b2"></i><i class="b3"></i><i class="b4"></i>
+ <section class="gift" id="gift">
+  <div class="wrap gg">
+   <div class="gl">
+    <h2>Сладкий подарок <em>к билету</em><span class="cw">Чтобы праздник продолжился дома</span></h2>
+    <div class="warn2"><b>!</b><span>Подарок не входит в стоимость билета и покупается отдельно</span></div>
+    <p class="gp"><mark>Фирменный новогодний тубус со сладостями,</mark><br>450 г. Можно добавить к билету при покупке и забрать на площадке перед шоу.</p>
+    <ul class="gl2">
+     <li><img src="/assets/icons/cracker.svg" alt=""><span>Сладости: батончик, халва, козинак в шоколаде, ирис,<br>карамель, ассорти конфет, печенье «Коломенское»</span></li>
+     <li><img src="/assets/icons/candy-cane.svg" alt=""><span>Брендовые конфеты и леденец<br>«Чебурашка», конфеты «Простоквашино»</span></li>
+     <li><img src="/assets/icons/gift.svg" alt=""><span>Мини-фигурка «Простоквашино» — случайный герой<br>из 12, с подвижными деталями, совместима с LEGO, 5+</span></li>
+     <li><img src="/assets/icons/puzzle.svg" alt=""><span>Набор из пазла-афиши</span></li>
+    </ul>
+    <a class="btn" href="#schedule">Добавить подарок к билету <img class="gi" src="/assets/icons/gift.svg" alt=""></a>
+   </div>
+   <img class="gimg" src="/assets/gift.webp" alt="Новогодний тубус">
+  </div>
+ </section>
+ <section class="sch" id="schedule">
+  <div class="wrap">
+   <div class="sh">
+    <img class="cg" src="/assets/cat-guitar.webp" alt="">
+    <h2><span class="rt">Расписание</span><span class="l2">показов спектакля</span></h2>
+    <p>Выберите дату — и займите места на удобное время. Клик по сеансу открывает покупку на этот показ</p>
+   </div>
+   <div class="yr">2026</div>
+   <div id="days"></div>
+   <a class="btn wide" href="#">Показать еще сеансы <svg viewBox="0 0 24 24"><path d="M2 9h11V3.500L22 12l-9 8.500V15H2z" fill="#f6eddd"/></svg></a>
+   <div class="vn">
+    <img class="vmap" src="/assets/map.webp" alt="Карта: Дворец Ирины Винер, Лужники">
+    <div class="vi">
+     <h3>Дворец<br>Ирины Винер</h3>
+     <div class="vr2"><b>Адрес</b><span>ул. Лужники, д. 24, стр. 24, Москва</span></div>
+     <div class="vr2"><b>Метро</b><span>Спортивная, Лужники или Воробьёвы горы</span></div>
+     <div class="vr2"><b>На машине</b><span>Парковка [есть/нет, где — уточнить]</span></div>
+     <a class="btn cr vb" href="https://yandex.ru/maps/?text=Дворец%20Ирины%20Винер%20Лужники" target="_blank" rel="noopener">Проложить маршрут <svg viewBox="0 0 24 24"><path d="M21 3 3 10.5l7 2.5 2.5 7z" fill="#b3302a"/></svg></a>
+    </div>
+   </div>
+  </div>
+ </section>
+</div>
+
+<section class="faq" id="faq">
+ <div class="fpat"></div>
+ <div class="fl2"><details><summary>За сколько времени до начала приходить?</summary><p>Ответ уточнить.</p></details><details open><summary>Нужен ли билет ребенку?</summary><p>Дети до 3 лет — бесплатно без отдельного места (нужен оригинал свидетельства о рождении). С одним взрослым — только один ребёнок. Детям с 4 лет нужен билет.</p></details><details><summary>Нужен ли билет родителю?</summary><p>Ответ уточнить.</p></details><details><summary>Есть ли возрастные ограничения?</summary><p>Шоу 0+.</p></details><details><summary>Есть ли льготные билеты?</summary><p>Ответ уточнить.</p></details><details><summary>Как получить купленный подарок?</summary><p>Подарок можно забрать на площадке перед шоу.</p></details><details><summary>Что делать если не пришел электронный билет?</summary><p>Ответ уточнить.</p></details><details><summary>Что делать, если ребенок заболел?<br>Какие условия возврата/переноса даты?</summary><p>Ответ уточнить.</p></details><details><summary>Как вернуть билеты?</summary><p>Ответ уточнить.</p></details><details><summary>Можно ли фотографировать?</summary><p>Ответ уточнить.</p></details><details><summary>Сколько длится представление и есть ли антракт?</summary><p>Программа идёт 1 час 20 минут. Про антракт уточнить.</p></details><details><summary>Есть ли парковка?</summary><p>Ответ уточнить.</p></details><details><summary>Если еще что-то что мне нужно знать?</summary><p>Ответ уточнить.</p></details></div>
+ <img class="fk" src="/assets/karlson-faq.webp" alt="">
+ <h2 class="fh">Частые<br>вопросы</h2>
+ <p class="fp">Если вы не нашли ответ на свой вопрос, напишите нам — отвечаем в течение рабочего дня</p>
+ <a class="btn fb" href="mailto:stat@souzmult90.ru">Написать нам <svg viewBox="0 0 24 24"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.3 1.2 4.3 3.2 5.8L4.5 21l4.300-2.200c1 .3 2 .4 3.200.4 5.500 0 10-3.600 10-8.100S17.500 3 12 3z" fill="#f6eddd"/><circle cx="8" cy="11" r="1.2" fill="#b3302a"/><circle cx="12" cy="11" r="1.2" fill="#b3302a"/><circle cx="16" cy="11" r="1.2" fill="#b3302a"/></svg></a>
+</section>
+
+<section class="part">
+ <div class="wrap"><h2>Нас поддерживают</h2><img src="/assets/partners.webp" alt="Партнёры"></div>
+</section>
+
+<footer>
+ <div class="tabs"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+ <div class="wrap fg">
+  <div class="fl">
+   <img src="/assets/logo.webp" alt="Сбер 185 · Союзмультфильм 90">
+   <div class="fnav"><a href="#about">О шоу</a><a href="#heroes">Герои</a><a href="#tickets">Билеты</a><a href="#gift">Подарок</a><a href="#schedule">Расписание</a><a href="#faq">FAQ</a></div>
+   <span class="tt">Мы в соц. сетях</span>
+   <div class="soc"><a href="#"><svg viewBox="0 0 24 24"><path d="M21 3 2.5 10.3c-.9.4-.9 1.1-.2 1.3l4.7 1.5 1.8 5.6c.2.6.1.8.7.8.4 0 .6-.2.9-.5l2.2-2.1 4.6 3.4c.8.5 1.5.2 1.7-.8L22 4.500c.3-1.200-.5-1.700-1-1.500z"/></svg></a><a href="#"><svg viewBox="0 0 24 24"><path d="M22 8a3 3 0 00-2-2.100C18 5.400 12 5.400 12 5.400s-6 0-8 .5A3 3 0 002 8c-.5 1.800-.5 4-.5 4s0 2.200.5 4a3 3 0 002 2.100c2 .5 8 .5 8 .5s6 0 8-.5a3 3 0 002-2.100c.5-1.800.5-4 .5-4s0-2.200-.5-4zM10 15V9l5.200 3z"/></svg></a><a href="#"><svg viewBox="0 0 24 24"><text x="12" y="17" font-family="Arial Black,Arial" font-weight="900" font-size="14" text-anchor="middle">VK</text></svg></a><a href="#"><svg viewBox="0 0 24 24"><path d="M12 2a4.500 4.500 0 100 9 4.500 4.500 0 000-9zm0 6.500a2 2 0 110-4 2 2 0 010 4zM6.500 13.500l-1.200 1.800c2 1.300 3.700 1.700 5 1.800L5.800 21.300 7.600 23 12 18.600l4.400 4.400 1.800-1.700-4.500-4.200c1.300-.1 3-.5 5-1.800l-1.200-1.800c-3.100 2-8.100 2-11 0z"/></svg></a><a href="#"><svg viewBox="0 0 24 24"><path d="M12 2C6 2 3 4.500 3 10c0 3 1 5 3 6.300V21l3.500-2.600c.8.100 1.700.2 2.500.2 6 0 9-2.700 9-8.600S18 2 12 2z"/></svg></a></div>
+   <div class="fq">По всем вопросам:</div>
+   <a class="fm" href="mailto:stat@souzmult90.ru">stat@souzmult90.ru</a>
+   <div class="fa"><b>0+</b><span>Дворец Ирины Винер. Москва,<br>ул. Лужники, д. 24, стр. 24</span></div>
+  </div>
+  <div class="fr"><img src="/assets/globe.webp" alt="Новогодний шар"></div>
+ </div>
+ <div class="drifts"></div>
+ <div class="cp"><div class="wrap"><span>© Союзмультфильм. Все права защищены.</span><a href="#">Пользовательское соглашение</a><a href="#">Правила посещения</a><span class="tt">Создание сайта</span></div></div>
+</footer>
